@@ -23,10 +23,10 @@ export function Footer() {
   const scrollTo = (id: string) => document.querySelector(id)?.scrollIntoView?.({ behavior: 'smooth' })
 
   return (
-    <footer className="bg-[#0d2c46] text-white">
-      <div className="mx-auto max-w-[1200px] px-4 py-14 md:px-6">
-        <div className="grid gap-10 md:grid-cols-3">
-          <div>
+    <footer className="overflow-x-clip bg-[#0d2c46] text-white">
+      <div className="mx-auto w-full min-w-0 max-w-[1200px] px-4 py-14 md:px-6">
+        <div className="grid min-w-0 gap-10 md:grid-cols-3">
+          <div className="min-w-0">
             <div className="flex items-center gap-2.5">
               <span className="flex h-9 w-9 items-center justify-center rounded-md bg-white/10">
                 <Scale className="h-5 w-5 text-accent" />
@@ -56,7 +56,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="min-w-0">
             <h4 className="font-display text-sm font-semibold uppercase tracking-widest text-accent">Navegação</h4>
             <ul className="mt-4 space-y-2.5 text-sm text-white/70">
               {[
@@ -74,12 +74,12 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="min-w-0">
             <h4 className="font-display text-sm font-semibold uppercase tracking-widest text-accent">Contato</h4>
             <ul className="mt-4 space-y-3.5 text-sm text-white/70">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
-                <span>{contactInfo.address}, {contactInfo.cep}</span>
+                <span className="min-w-0 break-words">{contactInfo.address}, {contactInfo.cep}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
@@ -93,7 +93,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-accent" />
-                <a href={`mailto:${contactInfo.email}`} className="transition-colors hover:text-white" suppressHydrationWarning>{contactInfo.email}</a>
+                <a href={`mailto:${contactInfo.email}`} className="min-w-0 break-all transition-colors hover:text-white sm:break-normal" suppressHydrationWarning>{contactInfo.email}</a>
               </li>
             </ul>
           </div>

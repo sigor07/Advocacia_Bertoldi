@@ -37,6 +37,7 @@ export function Turnstile({ onVerify, onExpire }: Props) {
         widgetIdRef.current = window.turnstile.render(containerRef.current, {
           sitekey: siteKey,
           theme: 'light',
+          size: window.matchMedia('(max-width: 359px)').matches ? 'compact' : 'flexible',
           language: 'pt-br',
           callback: (token: string) => onVerify?.(token),
           'expired-callback': () => onExpire?.(),
@@ -79,11 +80,11 @@ export function Turnstile({ onVerify, onExpire }: Props) {
 
   if (!siteKey) {
     return (
-      <p className="text-xs text-muted-foreground">
+      <p className="max-w-full break-words text-xs text-muted-foreground">
         Verificação de segurança não configurada.
       </p>
     )
   }
 
-  return <div ref={containerRef} className="min-h-[65px]" />
+  return <div ref={containerRef} className="min-h-[65px] w-full min-w-0 max-w-full overflow-hidden" />
 }
