@@ -98,6 +98,19 @@ http://SEU_IPV4:3001
 | `npm run start` | Inicia a aplicação compilada |
 | `npm run lint` | Executa a verificação de lint |
 
+## Deploy na Vercel
+
+Ao importar este repositório na Vercel, configure:
+
+- **Framework Preset:** Next.js;
+- **Root Directory:** `advocacia_bertoldi/nextjs_space`;
+- **Build Command:** padrão da Vercel;
+- **Install Command:** `npm install`.
+
+As variáveis do arquivo `.env` devem ser cadastradas manualmente em **Project Settings > Environment Variables**. O arquivo `.env` não deve ser enviado ao repositório.
+
+O arquivo `requirements.txt` não é necessário, pois esta aplicação utiliza Node.js e gerencia suas dependências pelo `package.json`.
+
 ## Conteúdo e assets
 
 - Vídeo principal: `advocacia_bertoldi/nextjs_space/public/uploads/hero-video-final.mp4`
