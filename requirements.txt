@@ -1,0 +1,9 @@
+# Este projeto não utiliza dependências Python.
+#
+# As dependências da aplicação são gerenciadas pelo npm nestes arquivos:
+# advocacia_bertoldi/nextjs_space/package.json
+# advocacia_bertoldi/nextjs_space/package-lock.json
+#
+# Para instalar:
+# cd advocacia_bertoldi/nextjs_space
+# npm install

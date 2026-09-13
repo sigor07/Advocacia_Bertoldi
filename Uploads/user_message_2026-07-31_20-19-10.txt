@@ -1,0 +1,58 @@
+Você é um agente especialista em desenvolvimento de sites, design moderno, responsivo, estratégias de UI/UX e SEO avançadas. Construa um site/landing page para um escritório de Advocacia chamado Advocacia Bertoldi. O site deve ter o design moderno, com referências e elementos advocatícios que façam o usuário/cliente ficar imerso no tópico. Adicione animações e efeitos conforme o usuário interage com a página. Coloque efeitos e animações de background também. A página deve ter uma copy persuasiva para fazer o usuário a ficar interessado em contratar o escritório. O Site deverá ter no Cabeçalho: Quem Somos, Áreas de Atuação, Equipe, Fale Conosco e Pesquisar Processo. Ao Pesquisar Processo, o site vai atuar como uma "camada de interface" sobre esse serviço(do CNJ). Ao Clicar em Pesquisar Processo, o site teria um campo(Nº Processo:)( Padrão número do processo em 20 dígitos: NNNNNNN-DD.AAAA.JTR.OOOO) para digitar, um Dropdown(Instância:) com Primeiro Grau(sendo fixo), Tribunal de Justiça e Turmas Recursais e um botão Consultar. Ao Clicar em consultar, deverá Redirecionar o usuário diretamente para a página de resultado do processo no portal Jus.br (ex.: https://www.jus.br/processo/[NUMERO_CNJ]); deverá mostrar o processo na página do Tribunal de Justiça do Estado que pertença aquele número de processo.
+A lógica do redirecionamento seria:
+1 - O usuário digita o número do processo no seu site
+2 - Seu sistema identifica automaticamente o tribunal a partir dos dígitos do número
+3 - Você redireciona o usuário para o portal de consulta daquele tribunal específico
+Baseado nos dígitos do número CNJ, faz-se o redirecionamento para a URL correta.
+Deverá ser incluído um vídeo(em anexo) para o Hero Section.
+Deverá ter também ícones/Links do Linkedin, Instagram, Whatsapp, email do escritório. As áreas de atuação deverá ficar no meio da página e ter um ícone(Exemplificando aquele ramo do direito) e um comentário sobre aquele direito. 
+Deverá ter a localização no google maps 
+Sócios - Nossos sócios são profissionais altamente qualificados, com vasta experiência em diversas áreas do Direito. Com formação acadêmica sólida e reconhecimento no mercado, eles lideram nossa equipe com comprometimento, ética e foco em resultados eficazes para os clientes. Deverá vir logo após a Áreas de Atuação. 
+Os Sócios deverão vir com nome, foto e número OAB, caso tenham(Utilize as fotos anexadas).
+Gleidmilson Bertoldi – Advogado sócio fundador – OAB/SP 283-043
+Gabriel Chanquini Dias – Advogado sócio – OAB/SP 348.028
+Letícia Satiro Sakai – Advogada sócia – OAB/SP 387.335
+Giovana dos Santos Barbosa – Advogada sócia – OAB/SP 499.177
+Graziele Alves da Silva Nunes – Assistente Administrativa
+No final da página deverá ter o Entre em Contato 
+As tonalidades de cores são feitas a partir das Letras do vídeo(Advocacia bertoldi), que poderão ser:
+Azul claro: 8ECAE6 ou ADE8F4
+Azul escuro: 22577A ou 184E77
+Combine as cores conforme as Letras e deixe o site com uma vista profissional. OBS.: Caso essas cores não estejam no padrão de elegância e profissionalismo para um site pode alterar as mesmas para que tudo ocorra de forma profissional como se um Expert/Sênior em UX/UI estivesse fazendo. 
+Entre em contato
+Entre em contato conosco e descubra como podemos transformar desafios jurídicos em soluções eficientes para o seu negócio. Além disso, este canal está disponível para que titulares de dados pessoais possam exercer seus direitos previstos na LGPD, incluindo solicitações relacionadas a acesso, correção, atualização ou demais demandas sobre o tratamento de dados.
+Um formulário(Com: Seu nome, Seu e-mail, Assunto e Sua mensagem(Em caixa maior de no mínimo 500 caracteres) ) para preencher e um botão de enviar, que será enviado para o email do Escritório.
+
+
+Implementar a Verificação CloudFlare – (Free)
+O site deve ser responsivo e funcionar em diversos dispositivos. Capriche!
+# Sobre a Advocacia Bertoldi
+A Advocacia Bertoldi é um site com mais de 10 anos de atuação, o escritório ADVOCACIA BERTOLDI tem como princípios o profissionalismo, a ética e o respeito no atendimento aos seus clientes, oferecendo-lhes qualidade e agilidade nos serviços prestados.
+
+Todos os profissionais tem como premissa de sua função prestar um atendimento personalizado e eficiente, visando defender os interesses de seus clientes e oferecer a melhor solução para os casos, dentro das normas da ética profissional.
+A Advocacia Bertoldi é reconhecido por sua atuação estratégica e rigor técnico em assessoria jurídica. Nossa equipe altamente qualificada está focada em resultados concretos, oferecendo atendimento personalizado e soluções jurídicas inovadoras adaptadas às necessidades específicas de cada cliente.
+Fundado em 2009 por Gleidmilson Bertoldi, o escritório é reconhecido por atuar em grandes processos trabalhistas dos quais podemos citar o caso que envolveu trabalhadores rurais e a usina de açúcar e álcool DECASA; bem como a intensa atuação na defesa dos funcionários públicos municipais de Caiuá-SP e processos previdenciários. Além de casos abrangidos pela lei de drogas, atuando na defesa dos acusados em primeira e segunda instância, bem como junto ao Superior Tribunal de Justiça e Supremo Tribunal Federal.
+Áreas de atuação
+A equipe do escritório ADVOCACIA BERTOLDI se destaca em diversas áreas do Direito, oferecendo soluções jurídicas completas e personalizadas para pessoas física e empresas de todos os portes e setores. Nossa equipe experiente e especializada está pronta para atender às necessidades dos clientes com excelência e foco em resultados eficientes.
+Colocar o nome dos Direitos um do lado do outro e aqueles que não contenham descrição, fazer a descrição, de modo profissional, baseada em cada tópico do Direito.
+Direito Civil – 
+Direito Processo Civil – 
+Direito Trabalhista - Orientação preventiva e atuação estratégica em disputas trabalhistas, minimizando riscos e protegendo a sustentabilidade do negócio.
+Direito Previdenciário – 
+Direito Penal – 
+Direito Processo Penal – 
+Direito Societário - Soluções jurídicas completas para estruturação, reorganização e governança societária, garantindo segurança e eficiência corporativa.
+Direito do Consumidor - Assessoria preventiva e contenciosa especializada, focada em reduzir riscos, assegurar compliance regulatório e proteger a reputação da empresa.
+Direito Imobiliário - Consultoria jurídica especializada na estruturação de negócios imobiliários, elaboração de contratos estratégicos, regularização fundiária e prevenção de litígios, garantindo segurança e rentabilidade em operações imobiliárias complexas.
+Direito Ambiental - Assessoria jurídica preventiva e estratégica na gestão ambiental, licenciamento, compliance regulatório e defesa administrativa e judicial, assegurando o desenvolvimento sustentável e mitigação de riscos para o seu negócio.
+Direito Administrativo - Atuação estratégica junto ao setor público e privado, com consultoria especializada em licitações, contratos administrativos e defesa em procedimentos regulatórios, promovendo segurança e eficiência nas relações governamentais.
+Direito Contratual - Elaboração, negociação e revisão de contratos empresariais sofisticados, assegurando clareza jurídica, proteção patrimonial e segurança nas relações comerciais.
+Toda a informação mostrada na interface do usuário deve ser em português brasileiro.
+
+Dados do Escritório:
+Rua Vitória, 574, Centro
+Presidente Epitácio-SP
+Cep.: 19470-045
+Telefone: (18) 3281-0975
+Whatsapp: (18) 997-3685
+e-mail: atendimento@advbertoldi.com.br
